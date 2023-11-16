@@ -1,5 +1,5 @@
-import pytest 
-from lib.personal_diary_system import *
+
+from lib.make_snippet_and_count_words import *
 
 def test_make_snippet_over_five_words():
     assert make_snippet("Today I went to the park and saw someone holding an ice cream") == "Today I went to the..."
