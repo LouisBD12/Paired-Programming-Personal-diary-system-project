@@ -1,5 +1,5 @@
 '''3'''
-from lib.to_do import *
+from lib.check_to_do import *
 
 def test_checks_for_to_do():
     assert check_to_do("#TODO") == True
